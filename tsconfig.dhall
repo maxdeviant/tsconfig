@@ -1,5 +1,4 @@
-let tsconfig =
-      https://raw.githubusercontent.com/maxdeviant/dhall-tsconfig/master/package.dhall
+let tsconfig = ./dhall-tsconfig.dhall
 
 in  tsconfig.TsConfig::{
     , compilerOptions = Some
